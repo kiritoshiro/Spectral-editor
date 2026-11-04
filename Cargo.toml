@@ -1,0 +1,19 @@
+[package]
+name = "speech-fixer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4"
+hound = "3.5"
+rustfft = "6"
+rfd = "0.17"
+cpal = "0.18"
+symphonia = { version = "0.5", features = ["mp3", "aac", "isomp4", "flac", "wav", "pcm", "ogg", "vorbis", "adpcm", "alac"] }
+
+# The sound processing is heavy; keep even the debug build fast.
+[profile.dev]
+opt-level = 3
+
+[profile.dev.package."*"]
+opt-level = 3

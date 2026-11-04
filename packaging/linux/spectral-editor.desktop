@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Speech Fixer
+Comment=Level speech and control recording loudness offline
+Exec=speech-fixer
+Icon=spectral-editor
+Categories=AudioVideo;Audio;
+Terminal=false

@@ -1,0 +1,352 @@
+{
+ "version": 1,
+ "values": [
+  {
+   "name": "speech band",
+   "group": "speech",
+   "value": "300-5000 Hz",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142f864b0 (0x1452d8618, 0x1452d8780)"
+  },
+  {
+   "name": "level range rule",
+   "group": "leveler",
+   "value": "correct only to the T +/- LR band edge, clamp +/- Maximum Gain",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142f95720"
+  },
+  {
+   "name": "analysis frame",
+   "group": "speech",
+   "value": 0.035,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142f87de0 (sr x 0.035, power of two)"
+  },
+  {
+   "name": "analysis step",
+   "group": "speech",
+   "value": 10,
+   "unit": "ms",
+   "estimated": true
+  },
+  {
+   "name": "speech sensitivity",
+   "group": "speech",
+   "value": 6.0,
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Dialogue Isolate\\Isolate Dialogue.xml (Sensitivity 6.03)"
+  },
+  {
+   "name": "SNR threshold",
+   "group": "speech",
+   "value": 10,
+   "unit": "dB",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc3b50 sets inner Leveler SNR Threshold = 10"
+  },
+  {
+   "name": "syllable rhythm minimum",
+   "group": "speech",
+   "value": 3.5,
+   "unit": "dB",
+   "estimated": true
+  },
+  {
+   "name": "speech band share minimum",
+   "group": "speech",
+   "value": 0.35,
+   "estimated": true
+  },
+  {
+   "name": "flatness maximum",
+   "group": "speech",
+   "value": 0.45,
+   "estimated": true
+  },
+  {
+   "name": "voice periodicity minimum",
+   "group": "speech",
+   "value": 0.4,
+   "estimated": true
+  },
+  {
+   "name": "gap joined, dialog",
+   "group": "speech",
+   "value": 0.6,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc3830 (Dialog release 0.6 s)"
+  },
+  {
+   "name": "gap joined, music",
+   "group": "speech",
+   "value": 0.4,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc3830 (Music release 0.4 s)"
+  },
+  {
+   "name": "leveler target level",
+   "group": "leveler",
+   "value": -20,
+   "unit": "dB",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Leveler\\Podcast Interview.xml; range -40..0, RX default -28 at iZotope RX 12 Audio Editor.exe 0x1451350a0 / 0x1452d8c68"
+  },
+  {
+   "name": "leveler responsiveness",
+   "group": "leveler",
+   "value": 1.0,
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Leveler\\Podcast Interview.xml; range 0.3..7.1, RX default 2 at iZotope RX 12 Audio Editor.exe 0x145bff338 / 0x1451559fc"
+  },
+  {
+   "name": "responsiveness to time scale",
+   "group": "leveler",
+   "value": "TS = (R - 0.3) / 1.7",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc27e0"
+  },
+  {
+   "name": "level window half-length at time scale 1",
+   "group": "leveler",
+   "value": 2.59,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142f87de0 (RunningHanns, sr x 2.59)"
+  },
+  {
+   "name": "preserve dynamic range",
+   "group": "leveler",
+   "value": 20,
+   "unit": "%",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Leveler\\Podcast Interview.xml; RX default 50 at iZotope RX 12 Audio Editor.exe 0x1452d8474"
+  },
+  {
+   "name": "maximum gain from preserve",
+   "group": "leveler",
+   "value": "((P-100)/-100)^2 x 30 dB",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc4d50"
+  },
+  {
+   "name": "level range",
+   "group": "leveler",
+   "value": 1.0,
+   "unit": "dB",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc3b50"
+  },
+  {
+   "name": "gated material needed for the offset",
+   "group": "leveler",
+   "value": 1.0,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142f8c110 (count >= sample rate)"
+  },
+  {
+   "name": "dialog gate speed",
+   "group": "leveler",
+   "value": 0.1,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc3830"
+  },
+  {
+   "name": "music gate speed",
+   "group": "leveler",
+   "value": 0.5,
+   "unit": "s",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc3830"
+  },
+  {
+   "name": "optimize for",
+   "group": "leveler",
+   "value": "dialog",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_142bc27e0 (choice list 0x145135090, default Dialog)"
+  },
+  {
+   "name": "lower music and noise",
+   "group": "leveler",
+   "value": 0,
+   "unit": "dB",
+   "estimated": true
+  },
+  {
+   "name": "optimize threshold",
+   "group": "optimize",
+   "value": -9,
+   "unit": "dB",
+   "source": "iZotope RX 12 Audio Editor.exe 0x1452d8c04 (range -48..0 at 0x1451391a0)"
+  },
+  {
+   "name": "optimize ratio",
+   "group": "optimize",
+   "value": 4,
+   "unit": ":1",
+   "source": "iZotope RX 12 Audio Editor.exe 0x1452d8000 (range 1.5..30 at 0x1451391a8)"
+  },
+  {
+   "name": "optimize speed",
+   "group": "optimize",
+   "value": 120,
+   "unit": "ms",
+   "source": "iZotope RX 12 Audio Editor.exe 0x1452d8538 (range 1..500 at 0x1451391b0)"
+  },
+  {
+   "name": "optimize boost",
+   "group": "optimize",
+   "value": 3,
+   "unit": "dB",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Optimize\\Basic Start.xml; range 0..12 at iZotope RX 12 Audio Editor.exe 0x145139090"
+  },
+  {
+   "name": "optimize gain law",
+   "group": "optimize",
+   "value": "upward: +B below T-B*R/(R-1), fading to 0 at T",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_143156da0"
+  },
+  {
+   "name": "optimize detector",
+   "group": "optimize",
+   "value": "peak hold +/-Speed, one-pole tau = Speed",
+   "source": "iZotope RX 12 Audio Editor.exe FUN_1431562a0 / FUN_143156460"
+  },
+  {
+   "name": "loudness target podcast",
+   "group": "loudness",
+   "value": -16,
+   "unit": "LUFS",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\Podcast Delivery.xml; range -42..-5, RX default -24 at iZotope RX 12 Audio Editor.exe 0x145135800 / 0x1452d8c54"
+  },
+  {
+   "name": "loudness target audiobook",
+   "group": "loudness",
+   "value": -20,
+   "unit": "LUFS",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\Audiobook Delivery.xml"
+  },
+  {
+   "name": "loudness target video",
+   "group": "loudness",
+   "value": -14,
+   "unit": "LUFS",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\Video Streaming Delivery.xml"
+  },
+  {
+   "name": "loudness target broadcast",
+   "group": "loudness",
+   "value": -23,
+   "unit": "LUFS",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\EBU R128.xml"
+  },
+  {
+   "name": "peak ceiling",
+   "group": "loudness",
+   "value": -1,
+   "unit": "dBTP",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\Podcast Delivery.xml; range -20..0, RX default -2 at iZotope RX 12 Audio Editor.exe 0x145135818 / 0x1452d8aa8"
+  },
+  {
+   "name": "audiobook peak ceiling",
+   "group": "loudness",
+   "value": -3,
+   "unit": "dBTP",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\Audiobook Delivery.xml"
+  },
+  {
+   "name": "tolerance",
+   "group": "loudness",
+   "value": 0.5,
+   "unit": "LU",
+   "source": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\Presets\\Loudness Control\\Podcast Delivery.xml; range 0.1..10, RX default 2 at iZotope RX 12 Audio Editor.exe 0x145135810"
+  },
+  {
+   "name": "absolute gate",
+   "group": "loudness",
+   "value": -70,
+   "unit": "LUFS",
+   "source": "ITU-R BS.1770-4"
+  },
+  {
+   "name": "relative gate",
+   "group": "loudness",
+   "value": -10,
+   "unit": "LU",
+   "source": "ITU-R BS.1770-4"
+  },
+  {
+   "name": "limiter look-ahead",
+   "group": "loudness",
+   "value": 5,
+   "unit": "ms",
+   "estimated": true
+  },
+  {
+   "name": "limiter release",
+   "group": "loudness",
+   "value": 80,
+   "unit": "ms",
+   "estimated": true
+  },
+  {
+   "name": "measure the speech only",
+   "group": "loudness",
+   "value": true,
+   "source": "Enable Gate default on in iZotope RX 12 Audio Editor.exe FUN_142bd36c0; dialogue gating estimated"
+  },
+  {
+   "name": "play / stop",
+   "group": "controls",
+   "value": "Space",
+   "estimated": true
+  },
+  {
+   "name": "listen original / fixed",
+   "group": "controls",
+   "value": "1 / 2",
+   "estimated": true
+  },
+  {
+   "name": "seek",
+   "group": "controls",
+   "value": "Left / Right 5 s, click waveform",
+   "estimated": true
+  },
+  {
+   "name": "auto fix",
+   "group": "controls",
+   "value": "A key / Auto fix button / --process default",
+   "estimated": true
+  },
+  {
+   "name": "auto fix target gap",
+   "group": "auto",
+   "value": 2.0,
+   "unit": "dB",
+   "estimated": true
+  },
+  {
+   "name": "auto fix preserve step",
+   "group": "auto",
+   "value": -10,
+   "unit": "%",
+   "estimated": true
+  },
+  {
+   "name": "auto fix responsiveness step",
+   "group": "auto",
+   "value": 0.75,
+   "unit": "x",
+   "estimated": true
+  },
+  {
+   "name": "auto fix low-speech threshold",
+   "group": "auto",
+   "value": 25,
+   "unit": "%",
+   "estimated": true
+  },
+  {
+   "name": "syllable onset rise",
+   "group": "speech",
+   "value": 6.0,
+   "unit": "dB",
+   "estimated": true
+  },
+  {
+   "name": "leveler relative gate",
+   "group": "leveler",
+   "value": 25.0,
+   "unit": "dB",
+   "estimated": true
+  }
+ ]
+}
