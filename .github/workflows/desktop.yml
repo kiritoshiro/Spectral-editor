@@ -80,7 +80,7 @@ jobs:
           "$OUTPUT" --appimage-extract-and-run --help
           cd dist
           sha256sum Spectral-editor-linux-x86_64.AppImage > Spectral-editor-linux-x86_64.AppImage.sha256
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: Spectral-editor-${{ matrix.platform }}
           path: dist/*
