@@ -9,7 +9,7 @@ hound = "3.5"
 rustfft = "6"
 rfd = "0.17"
 cpal = "0.18"
-symphonia = { version = "0.5", features = ["mp3", "aac", "isomp4", "flac", "wav", "pcm", "ogg", "vorbis", "adpcm", "alac"] }
+symphonia = { version = "0.6", features = ["mp3", "aac", "isomp4", "flac", "wav", "pcm", "ogg", "vorbis", "adpcm", "alac"] }
 
 # The sound processing is heavy; keep even the debug build fast.
 [profile.dev]
